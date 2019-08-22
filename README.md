@@ -1,5 +1,22 @@
 # My VSCode Setup
 
+## Extensions what I use
+
+- Atom Keymap
+- Autoprefixer
+- Beautiffy
+- Color picker
+- ESLint
+- HTML class sugestion
+- html2jade
+- IntelliSense for Classes
+- jadeview
+- jshint
+- live Sass Compiler
+- Material Therme
+- Sass
+- Live Serwer
+
 ## Settings.json
 ```
 {
