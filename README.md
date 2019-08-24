@@ -2,20 +2,25 @@
 
 ## Extensions what I use
 
-- Atom Keymap
-- Autoprefixer
-- Beautiffy
-- Color picker
+- Auto Close Tag
+- Auto Rename Tag
+- Auto-Open Markdown Preview
+- Beautify
+- Bracket Pair Colorizer
+- Color Picker
+- ES7 React/Redux/GraphQL/React-Native snippets
 - ESLint
-- HTML class sugestion
-- html2jade
-- IntelliSense for Classes
-- jadeview
-- jshint
-- live Sass Compiler
-- Material Therme
-- Sass
-- Live Serwer
+- GitLens — Git supercharged
+- HTML CSS Support
+- indent-rainbow
+- JavaScript (ES6) code snippets
+- Jest Snippets
+- Live Server
+- Material Icon Theme
+- Monokai Pro
+- Prettier - Code formatter
+- TODO Highlight
+- Turbo Console Log
 
 ## VSCode user config (Settings.json)
 ```
@@ -107,5 +112,5 @@ Set name and optional password
 2) Go to Github settings/SSH and GPG keys
 3) Add title and copy key from `.pub` file
 4) Init created ssh key
-`eval `ssh-agent``
+'eval `ssh-agent`'
 `ssh-add {name-of-created-ssh-key}`
