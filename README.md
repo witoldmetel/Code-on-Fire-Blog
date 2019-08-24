@@ -99,7 +99,12 @@
         "javascriptreact",
         "typescript",
         "typescriptreact"
-    ]
+    ],
+    "beautify.language": {
+        "html": ["html", "php", "erb"],
+        "css": [],
+        "js": []
+    }
 }
 ```
 
