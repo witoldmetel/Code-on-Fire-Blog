@@ -10,6 +10,7 @@
 - Color Picker
 - ES7 React/Redux/GraphQL/React-Native snippets
 - ESLint
+- Git History
 - GitLens — Git supercharged
 - HTML CSS Support
 - indent-rainbow
