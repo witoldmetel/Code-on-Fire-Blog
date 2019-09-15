@@ -21,6 +21,7 @@
 - Prettier - Code formatter
 - TODO Highlight
 - Turbo Console Log
+- vscode-styled-components
 
 ## VSCode user config (Settings.json)
 ```
