@@ -112,12 +112,4 @@
 
 ## Setup SSH for GitHub
 
-1) Generate key
-`ssh keygen`
-Set name and optional password
-
-2) Go to Github settings/SSH and GPG keys
-3) Add title and copy key from `.pub` file
-4) Init created ssh key
-'eval `ssh-agent`'
-`ssh-add {name-of-created-ssh-key}`
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
