@@ -78,7 +78,6 @@
         "fontWeight": "bold"
     },
     "breadcrumbs.enabled": true,
-    "javascript.validate.enable": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
