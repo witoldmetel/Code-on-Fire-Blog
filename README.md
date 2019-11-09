@@ -111,3 +111,8 @@
 ## Setup SSH for GitHub
 
 https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email "john@doe.org"
+```
