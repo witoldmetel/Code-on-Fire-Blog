@@ -63,7 +63,6 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "gitlens.keymap": "none",
-    "prettier.eslintIntegration": true,
     "todohighlight.keywords": [
         "todo",
         "@todo",
