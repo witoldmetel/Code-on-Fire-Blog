@@ -1,11 +1,10 @@
 # My VSCode Setup
 
-## Extensions what I use
+## Extensions
 
 - Auto Close Tag
 - Auto Rename Tag
 - Auto-Open Markdown Preview
-- Beautify
 - Bracket Pair Colorizer
 - Color Picker
 - ES7 React/Redux/GraphQL/React-Native snippets
@@ -17,16 +16,19 @@
 - JavaScript (ES6) code snippets
 - Jest Snippets
 - Live Server
+- Markdown PDF
 - Material Icon Theme
 - Monokai Pro
 - Prettier - Code formatter
+- Settings Sync
 - TODO Highlight
 - Turbo Console Log
 - vscode-styled-components
 
-## VSCode user config (Settings.json)
+## VSCode user config (settings.json)
 ```
 {
+  "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.rendererType": "dom",
   "editor.roundedSelection": false,
   "editor.snippetSuggestions": "top",
@@ -36,14 +38,15 @@
   "editor.fontLigatures": true,
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
-  "editor.gotoLocation.multiple": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.openEditors.visible": 0,
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
-  "workbench.iconTheme": "Monokai Classic Icons",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Monokai Classic",
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 1,
   "liveServer.settings.donotShowInfoMsg": true,
   "gitlens.advanced.messages": {
@@ -85,7 +88,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
@@ -93,11 +95,16 @@
     "typescript",
     "typescriptreact"
   ],
-  "beautify.language": {
-    "html": ["html", "php", "erb"],
-    "css": [],
-    "js": []
-  }
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.editor.enablePreview": false,
+  "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "extensions.ignoreRecommendations": true,
+  "prettier.singleQuote": true,
+  "eslint.migration.2_x": "off",
+  "sync.gist": "5dd8b9039d23c70475a0c43a135397a0",
+  "prettier.useTabs": true
 }
 ```
 
@@ -109,3 +116,7 @@ https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-th
 $ git config --global user.name "John Doe"
 $ git config --global user.email "john@doe.org"
 ```
+
+## Backup and Synchronize VSCode Settings with a GitHub Gist
+
+https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
