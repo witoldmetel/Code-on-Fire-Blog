@@ -115,8 +115,57 @@ https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-th
 ```
 $ git config --global user.name "John Doe"
 $ git config --global user.email "john@doe.org"
+
+$ git config user.name
+$ git config user.email
 ```
 
 ## Backup and Synchronize VSCode Settings with a GitHub Gist
 
 https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
+
+## Terminal (preview) settings
+```profiles.json
+{
+				"closeOnExit": "never",
+				"colorScheme": "UbuntuLegit",
+				"commandline": "wsl.exe -d Ubuntu-18.04",
+				"cursorColor": "#FFFFFF",
+				"cursorShape": "bar",
+				"fontFace": "Fira Code",
+				"fontSize": 12,
+				"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+				"historySize": 9001,
+				"icon": "ms-appdata:///roaming/ubuntu.png",
+				"name": "Ubuntu",
+				"padding": "0, 0, 0, 0",
+				"snapOnInput": true,
+				"tabTitle": "Ubuntu",
+				"useAcrylic": true
+			}
+			
+			"schemes": [
+		{
+			"name": "UbuntuLegit",
+			"foreground": "#EEEEEE",
+			"background": "#2C001E",
+			"black": "#4E9A06",
+			"red": "#CC0000",
+			"green": "#300A24",
+			"yellow": "#C4A000",
+			"blue": "#3465A4",
+			"purple": "#75507B",
+			"cyan": "#06989A",
+			"white": "#D3D7CF",
+			"brightBlack": "#555753",
+			"brightRed": "#EF2929",
+			"brightGreen": "#8AE234",
+			"brightYellow": "#FCE94F",
+			"brightBlue": "#729FCF",
+			"brightPurple": "#AD7FA8",
+			"brightCyan": "#34E2E2",
+			"brightWhite": "#EEEEEE"
+		}
+	],
+	```
+			
