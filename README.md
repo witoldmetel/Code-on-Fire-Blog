@@ -127,24 +127,24 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 ## Terminal (preview) settings
 ```profiles.json
 {
-				"closeOnExit": "never",
-				"colorScheme": "UbuntuLegit",
-				"commandline": "wsl.exe -d Ubuntu-18.04",
-				"cursorColor": "#FFFFFF",
-				"cursorShape": "bar",
-				"fontFace": "Fira Code",
-				"fontSize": 12,
-				"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-				"historySize": 9001,
-				"icon": "ms-appdata:///roaming/ubuntu.png",
-				"name": "Ubuntu",
-				"padding": "0, 0, 0, 0",
-				"snapOnInput": true,
-				"tabTitle": "Ubuntu",
-				"useAcrylic": true
-			}
+	"closeOnExit": "never",
+	"colorScheme": "UbuntuLegit",
+	"commandline": "wsl.exe -d Ubuntu-18.04",
+	"cursorColor": "#FFFFFF",
+	"cursorShape": "bar",
+	"fontFace": "Fira Code",
+	"fontSize": 12,
+	"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+	"historySize": 9001,
+	"icon": "ms-appdata:///roaming/ubuntu.png",
+	"name": "Ubuntu",
+	"padding": "0, 0, 0, 0",
+	"snapOnInput": true,
+	"tabTitle": "Ubuntu",
+	"useAcrylic": true
+}
 			
-			"schemes": [
+	"schemes": [
 		{
 			"name": "UbuntuLegit",
 			"foreground": "#EEEEEE",
@@ -167,5 +167,5 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 			"brightWhite": "#EEEEEE"
 		}
 	],
-	```
+```
 			
