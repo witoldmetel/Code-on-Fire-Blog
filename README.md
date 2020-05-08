@@ -20,6 +20,7 @@
 - Material Icon Theme
 - Monokai Pro
 - Prettier - Code formatter
+- Remote - WSL
 - Settings Sync
 - TODO Highlight
 - Turbo Console Log
@@ -79,32 +80,30 @@
 	},
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"eslint.enable": true,
 	"eslint.alwaysShowStatus": true,
+	"eslint.migration.2_x": "off",
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
 		"typescript",
 		"typescriptreact"
 	],
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
 	"git.confirmSync": false,
 	"git.autofetch": true,
 	"workbench.editor.enablePreview": false,
 	"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
-	"extensions.ignoreRecommendations": true,
-	"prettier.singleQuote": true,
-	"eslint.migration.2_x": "off",
-	"sync.gist": "5dd8b9039d23c70475a0c43a135397a0",
-	"prettier.useTabs": true,
-	"terminal.integrated.automationShell.osx": ""
+	"extensions.ignoreRecommendations": true
 }
 ```
 
@@ -143,29 +142,29 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"tabTitle": "Ubuntu",
 	"useAcrylic": true
 }
-			
-	"schemes": [
-		{
-			"name": "UbuntuLegit",
-			"foreground": "#EEEEEE",
-			"background": "#2C001E",
-			"black": "#4E9A06",
-			"red": "#CC0000",
-			"green": "#300A24",
-			"yellow": "#C4A000",
-			"blue": "#3465A4",
-			"purple": "#75507B",
-			"cyan": "#06989A",
-			"white": "#D3D7CF",
-			"brightBlack": "#555753",
-			"brightRed": "#EF2929",
-			"brightGreen": "#8AE234",
-			"brightYellow": "#FCE94F",
-			"brightBlue": "#729FCF",
-			"brightPurple": "#AD7FA8",
-			"brightCyan": "#34E2E2",
-			"brightWhite": "#EEEEEE"
-		}
-	],
+
+"schemes": [
+	{
+	"name": "UbuntuLegit",
+	"foreground": "#EEEEEE",
+	"background": "#2C001E",
+	"black": "#4E9A06",
+	"red": "#CC0000",
+	"green": "#300A24",
+	"yellow": "#C4A000",
+	"blue": "#3465A4",
+	"purple": "#75507B",
+	"cyan": "#06989A",
+	"white": "#D3D7CF",
+	"brightBlack": "#555753",
+	"brightRed": "#EF2929",
+	"brightGreen": "#8AE234",
+	"brightYellow": "#FCE94F",
+	"brightBlue": "#729FCF",
+	"brightPurple": "#AD7FA8",
+	"brightCyan": "#34E2E2",
+	"brightWhite": "#EEEEEE"
+	}
+],
 ```
 			
