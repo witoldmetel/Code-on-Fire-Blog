@@ -31,6 +31,9 @@
 {
 	"terminal.external.osxExec": "iTerm.app",
 	"terminal.integrated.rendererType": "dom",
+	"css.remoteStyleSheets": [
+    		"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  	],
 	"editor.roundedSelection": false,
 	"editor.snippetSuggestions": "top",
 	"editor.tabSize": 2,
