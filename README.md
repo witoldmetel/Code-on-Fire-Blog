@@ -7,6 +7,7 @@
 - Auto-Open Markdown Preview
 - Bracket Pair Colorizer
 - Color Picker
+- CSS Peek
 - ES7 React/Redux/GraphQL/React-Native snippets
 - ESLint
 - Git History
