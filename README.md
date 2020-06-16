@@ -130,7 +130,8 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 ## Terminal Setup
 
 1) Git Bash
-https://avladov.com/blog/641/replacing-command-prompt-git-bash
+- https://avladov.com/blog/641/replacing-command-prompt-git-bash (Config)
+- http://practicalseries.com/1002-vcs/03-03-install.html (Change default path)
 
 2) Hyper
 - https://ksmigiel.com/2019/01/hyper-git/ (Config)
