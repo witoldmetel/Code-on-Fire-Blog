@@ -132,6 +132,9 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 - Git Bash
 https://avladov.com/blog/641/replacing-command-prompt-git-bash
 
+- Hyper
+- https://github.com/MozzarellaM/hyper-monokai-pro (Monokai Pro Theme)
+
 ## Terminal (preview) settings
 ```profiles.json
 {
