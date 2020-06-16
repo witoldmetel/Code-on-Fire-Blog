@@ -129,54 +129,10 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 
 ## Terminal Setup
 
-- Git Bash
+1) Git Bash
 https://avladov.com/blog/641/replacing-command-prompt-git-bash
 
-- Hyper
+2) Hyper
+- https://ksmigiel.com/2019/01/hyper-git/ (Config)
 - https://github.com/MozzarellaM/hyper-monokai-pro (Monokai Pro Theme)
-
-## Terminal (preview) settings
-```profiles.json
-{
-	"closeOnExit": "never",
-	"colorScheme": "UbuntuLegit",
-	"commandline": "wsl.exe -d Ubuntu-18.04",
-	"cursorColor": "#FFFFFF",
-	"cursorShape": "bar",
-	"fontFace": "Fira Code",
-	"fontSize": 12,
-	"guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-	"historySize": 9001,
-	"icon": "ms-appdata:///roaming/ubuntu.png",
-	"name": "Ubuntu",
-	"padding": "0, 0, 0, 0",
-	"snapOnInput": true,
-	"tabTitle": "Ubuntu",
-	"useAcrylic": true
-}
-
-"schemes": [
-	{
-	"name": "UbuntuLegit",
-	"foreground": "#EEEEEE",
-	"background": "#2C001E",
-	"black": "#4E9A06",
-	"red": "#CC0000",
-	"green": "#300A24",
-	"yellow": "#C4A000",
-	"blue": "#3465A4",
-	"purple": "#75507B",
-	"cyan": "#06989A",
-	"white": "#D3D7CF",
-	"brightBlack": "#555753",
-	"brightRed": "#EF2929",
-	"brightGreen": "#8AE234",
-	"brightYellow": "#FCE94F",
-	"brightBlue": "#729FCF",
-	"brightPurple": "#AD7FA8",
-	"brightCyan": "#34E2E2",
-	"brightWhite": "#EEEEEE"
-	}
-],
-```
-			
+- https://github.com/lucleray/hyper-opacity (Hyper Opacity background)
