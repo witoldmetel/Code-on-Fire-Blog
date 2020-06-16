@@ -127,6 +127,11 @@ $ git config user.email
 
 https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
 
+## Terminal Setup
+
+- Git Bash
+https://avladov.com/blog/641/replacing-command-prompt-git-bash
+
 ## Terminal (preview) settings
 ```profiles.json
 {
