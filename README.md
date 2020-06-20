@@ -1,5 +1,32 @@
 # My VSCode Setup
 
+## Terminal Setup
+
+1) Git Bash
+- https://avladov.com/blog/641/replacing-command-prompt-git-bash (Config)
+- http://practicalseries.com/1002-vcs/03-03-install.html (Change default path)
+
+2) Hyper
+- https://ksmigiel.com/2019/01/hyper-git/ (Config)
+- https://github.com/MozzarellaM/hyper-monokai-pro (Monokai Pro Theme)
+- https://github.com/lucleray/hyper-opacity (Hyper Opacity background)
+
+## Setup SSH for GitHub
+
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email "john@doe.org"
+
+$ git config user.name
+$ git config user.email
+```
+
+## Backup and Synchronize VSCode Settings with a GitHub Gist
+
+https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
+
 ## Extensions
 
 - Auto Close Tag
@@ -110,30 +137,3 @@
 	"extensions.ignoreRecommendations": true
 }
 ```
-
-## Setup SSH for GitHub
-
-https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-```
-$ git config --global user.name "John Doe"
-$ git config --global user.email "john@doe.org"
-
-$ git config user.name
-$ git config user.email
-```
-
-## Backup and Synchronize VSCode Settings with a GitHub Gist
-
-https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
-
-## Terminal Setup
-
-1) Git Bash
-- https://avladov.com/blog/641/replacing-command-prompt-git-bash (Config)
-- http://practicalseries.com/1002-vcs/03-03-install.html (Change default path)
-
-2) Hyper
-- https://ksmigiel.com/2019/01/hyper-git/ (Config)
-- https://github.com/MozzarellaM/hyper-monokai-pro (Monokai Pro Theme)
-- https://github.com/lucleray/hyper-opacity (Hyper Opacity background)
