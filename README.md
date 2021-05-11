@@ -58,10 +58,6 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 ```
 {
 	"terminal.external.osxExec": "iTerm.app",
-	"terminal.integrated.rendererType": "dom",
-	"css.remoteStyleSheets": [
-    		"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  	],
 	"editor.roundedSelection": false,
 	"editor.snippetSuggestions": "top",
 	"editor.tabSize": 2,
@@ -87,14 +83,8 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 		"suppressFileNotUnderSourceControlWarning": false,
 		"suppressGitVersionWarning": false,
 		"suppressLineUncommittedWarning": false,
-		"suppressNoRepositoryWarning": false,
-		"suppressResultsExplorerNotice": false,
-		"suppressShowKeyBindingsNotice": true,
-		"suppressUpdateNotice": true,
-		"suppressWelcomeNotice": true
+		"suppressNoRepositoryWarning": false
 	},
-	"gitlens.views.fileHistory.enabled": true,
-	"gitlens.views.lineHistory.enabled": true,
 	"gitlens.keymap": "none",
 	"todohighlight.keywords": ["todo", "@todo", "fixme", "@fixme"],
 	"todohighlight.isCaseSensitive": false,
@@ -111,15 +101,14 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	},
 	"typescript.updateImportsOnFileMove.enabled": "never",
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"eslint.enable": true,
 	"eslint.alwaysShowStatus": true,
 	"eslint.migration.2_x": "off",
 	"eslint.validate": [
@@ -134,6 +123,7 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"git.autofetch": true,
 	"workbench.editor.enablePreview": false,
 	"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
-	"extensions.ignoreRecommendations": true
+	"extensions.ignoreRecommendations": true,
+	"turboConsoleLog.logMessagePrefix": ""
 }
 ```
