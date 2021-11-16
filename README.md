@@ -19,7 +19,7 @@
 
 ### Windows
 
-1) https://github.com/lucleray/hyper-opacity (Hyper Opacity background)
+1) https://ksmigiel.com/2019/01/hyper-git/ (Config)
 
 ## Setup SSH for GitHub
 
