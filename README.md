@@ -1,5 +1,9 @@
 # My VSCode Setup
 
+## Raycast
+
+https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7
+
 ## Terminal Setup
 
 1) Git Bash
