@@ -2,29 +2,12 @@
 
 ## Raycast
 
-[Init setup](https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
-[Manual](https://raycastapp.notion.site/Raycast-Manual-d5c85a7694dc4e4088b8b93557ea6d2d)
+- [Setup](https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
+- [Manual](https://raycastapp.notion.site/Raycast-Manual-d5c85a7694dc4e4088b8b93557ea6d2d)
 
-## Terminal Setup
+## Warp
 
-1) Git Bash
-- https://avladov.com/blog/641/replacing-command-prompt-git-bash (Config)
-- http://practicalseries.com/1002-vcs/03-03-install.html (Change default path)
-
-2) Hyper
-
-### MacOS
-
-1) https://dev.to/code2rithik/how-to-install-hyper-terminal-for-macbook-8db
-2) https://github.com/vercel/hyper
-3) https://stackoverflow.com/questions/68884397/hyper-terminal-zsh-command-not-found-hyper
-4) https://tjay.dev/howto-my-terminal-shell-setup-hyper-js-zsh-starship/
-5) https://github.com/MozzarellaM/hyper-monokai-pro (Monokai Pro Theme)
-6) https://github.com/lucleray/hyper-opacity (Hyper Opacity background)
-
-### Windows
-
-1) https://ksmigiel.com/2019/01/hyper-git/ (Config)
+- [Manual](https://docs.warp.dev/?_cio_id=eac40605ccc201bdd60a)
 
 ## Setup SSH for GitHub
 
