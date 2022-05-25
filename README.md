@@ -2,7 +2,8 @@
 
 ## Raycast
 
-https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7
+[Init setup](https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
+[Manual](https://raycastapp.notion.site/Raycast-Manual-d5c85a7694dc4e4088b8b93557ea6d2d)
 
 ## Terminal Setup
 
