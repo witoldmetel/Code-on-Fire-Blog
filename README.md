@@ -1,4 +1,4 @@
-# My VSCode Setup
+# My Personal Setup
 
 ## Raycast
 
