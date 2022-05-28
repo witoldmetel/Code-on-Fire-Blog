@@ -5,6 +5,19 @@
 - [Setup](https://raycastapp.notion.site/Hotkey-56103210375b4fc78b63a7c5e7075fb7)
 - [Manual](https://raycastapp.notion.site/Raycast-Manual-d5c85a7694dc4e4088b8b93557ea6d2d)
 
+### Commands
+
+`fs` - file search
+`checkport` - kill port
+`kill` - kill. process
+`mdn` - MDN docs
+`st` - speedtest
+`gs` - google search
+`smi` - search menu items
+`note` - open floating notes
+`yt` - search youtube videos
+`gt` - google translate
+
 ## Warp
 
 - [Manual](https://docs.warp.dev/?_cio_id=eac40605ccc201bdd60a)
