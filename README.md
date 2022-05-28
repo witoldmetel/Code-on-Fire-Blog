@@ -71,33 +71,6 @@ $ git config user.email
 
 https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
 
-## Extensions
-
-- Auto Close Tag
-- Auto Rename Tag
-- Auto-Open Markdown Preview
-- Bracket Pair Colorizer
-- Color Picker
-- CSS Peek
-- ES7 React/Redux/GraphQL/React-Native snippets
-- ESLint
-- Git History
-- GitLens — Git supercharged
-- HTML CSS Support
-- Hyper in VS Code
-- indent-rainbow
-- JavaScript (ES6) code snippets
-- Jest Snippets
-- Live Server
-- Markdown PDF
-- Material Icon Theme
-- Monokai Pro
-- Prettier - Code formatter
-- Remote - WSL
-- Settings Sync
-- TODO Highlight
-- Turbo Console Log
-
 ## VSCode user config (settings.json)
 ```
 {
