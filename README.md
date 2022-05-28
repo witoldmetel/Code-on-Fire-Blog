@@ -7,16 +7,15 @@
 
 ### Commands
 
-`fs` - file search
-`checkport` - kill port
-`kill` - kill. process
-`mdn` - MDN docs
-`st` - speedtest
-`gs` - google search
-`smi` - search menu items
-`note` - open floating notes
-`yt` - search youtube videos
-`gt` - google translate
+- `fs` - file search
+- `checkport` - kill port
+- `kill` - kill. process
+- `mdn` - MDN docs
+- `st` - speedtest
+- `gs` - google search
+- `smi` - search menu items
+- `note` - open floating notes
+- `gt` - google translate
 
 ## Warp
 
