@@ -21,6 +21,11 @@
 
 - [Manual](https://docs.warp.dev/?_cio_id=eac40605ccc201bdd60a)
 
+### Commands
+
+- `alt/command + arrow right/left` - move between words
+- `control + shift + }` - active next tab
+
 ### Theme 
 - monokai_pro_classic.yaml
 
