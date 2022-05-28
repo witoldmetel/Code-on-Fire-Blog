@@ -151,18 +151,6 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 
 ## .zshrc
 ```
-eval "$(starship init zsh)"
-source /Users/witold/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source /Users/witold/.zsh/completion.zsh
-source /Users/witold/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/witold/.zsh/history.zsh
-alias ls='ls -G'
-source /Users/witold/.zsh/key-bindings.zsh
-source /Users/witold/.zsh/aliases.zsh
-```
-
-## aliases.zsh
-```
 alias ls='ls -G'                              # colorize `ls` output
 alias zshreload='source ~/.zshrc'             # reload ZSH
 alias shtop='sudo htop'                       # run `htop` with root rights
@@ -172,12 +160,10 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias less='less -R'
 alias g='git'
-
 alias rm='rm -i'                              # confirm removal
 alias cp='cp -i'                              # confirm copy
 alias mv='mv -i'                              # confirm move
 alias cal='gcal --starting-day=1'             # print simple calendar for current month
-alias weather='curl v2.wttr.in'               # print weather for current location (https://github.com/chubin/wttr.in)
 ```
 
 ## .gitconfig
