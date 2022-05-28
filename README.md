@@ -143,9 +143,9 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"turboConsoleLog.logMessagePrefix": "",
 	"sync.gist": "ca918e14a9b9ea8b6c7ffce533bc685d",
 	"terminal.integrated.defaultProfile.osx": "zsh",
-	"terminal.external.osxExec": "Hyper.app",
 	"terminal.explorerKind": "external",
-	"bracketPairColorizer.depreciation-notice": false
+	"bracketPairColorizer.depreciation-notice": false,
+	"editor.inlineSuggest.enabled": true
 }
 ```
 
