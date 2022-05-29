@@ -154,6 +154,18 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 }
 ```
 
+### VSCode commands
+
+- `control + shift + p` - show all commands
+- `control + p` - open file
+- `control + d` - select the same word
+- `F2` - rename word
+- `command + `` - toggle internal terminal
+- `control + /` - comment code line
+- `control + i` - toggle suggestion
+- `control + option + [` - fold
+- `control + ,` - open settings
+
 ## .zshrc
 ```
 alias ls='ls -G'                              # colorize `ls` output
