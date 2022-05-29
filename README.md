@@ -160,11 +160,16 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 - `control + p` - open file
 - `control + d` - select the same word
 - `F2` - rename word
-- `command + `` - toggle internal terminal
+- `command + tilda` - toggle internal terminal
 - `control + /` - comment code line
 - `control + i` - toggle suggestion
 - `control + option + [` - fold
 - `control + ,` - open settings
+- `option + click` - multiple cursors
+- `control + shift + ]` - switch between tabs
+- `control + shift + t` - open last closed tabs
+- `F12` - find references
+- `option + shift + F12` - find references and open it in side bar
 
 ## .zshrc
 ```
