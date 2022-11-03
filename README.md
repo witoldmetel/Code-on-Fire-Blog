@@ -86,7 +86,6 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"editor.fontSize": 14,
 	"editor.fontLigatures": true,
 	"editor.suggestSelection": "first",
-	"editor.formatOnSave": true,
 	"editor.gotoLocation.multipleDefinitions": "goto",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"explorer.openEditors.visible": 0,
@@ -96,7 +95,6 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"workbench.colorTheme": "Monokai Classic",
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.startupEditor": "newUntitledFile",
-	"window.zoomLevel": 1,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"gitlens.advanced.messages": {
 		"suppressCommitHasNoPreviousCommitWarning": false,
@@ -132,6 +130,7 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	},
 	"eslint.alwaysShowStatus": true,
 	"eslint.migration.2_x": "off",
+	"eslint.enable": true,
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
@@ -143,14 +142,20 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"git.confirmSync": false,
 	"git.autofetch": true,
 	"workbench.editor.enablePreview": false,
-	"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\bash.exe",
 	"extensions.ignoreRecommendations": true,
 	"turboConsoleLog.logMessagePrefix": "",
 	"sync.gist": "ca918e14a9b9ea8b6c7ffce533bc685d",
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"terminal.explorerKind": "external",
-	"bracketPairColorizer.depreciation-notice": false,
-	"editor.inlineSuggest.enabled": true
+	"editor.inlineSuggest.enabled": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnSave": true,
+	"window.zoomLevel": 1,
+	"git.ignoreMissingGitWarning": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	}
 }
 ```
 
