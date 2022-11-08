@@ -153,9 +153,12 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 	"window.zoomLevel": 1,
 	"git.ignoreMissingGitWarning": true,
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true,
-		"source.organizeImports": true
-	}
+		"source.fixAll": true
+	},
+	"emmet.includeLanguages": {
+		"postcss": "css"
+	},
+	"postcss.validate": false
 }
 ```
 
