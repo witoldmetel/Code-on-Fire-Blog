@@ -1,0 +1,98 @@
+.mea-easy-launch-app .vld-overlay .vld-icon svg {
+      fill: white;
+    }
+
+    .mea-easy-launch-app {
+      background: transparent;
+      border-radius: 15px;
+      color: white;
+      font-family: Poppins, sans-serif !important;
+      height: 48px;
+      position: absolute;
+      width: 100%;
+    }
+
+    .mea-easy-launch-container {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      height: 100%;
+    }
+
+    .mea-easy-launch-container .mea-data:nth-child(1) {
+      order: 2;
+    }
+    .mea-easy-launch-container .mea-data:nth-child(2) {
+      order: 4;
+    }
+    .mea-easy-launch-container .mea-data:nth-child(3) {
+      order: 3;
+    }
+    .mea-easy-launch-container .mea-data:nth-child(4) {
+      order: 1;
+    }
+
+    .mea-cvv-result {
+      display: none;
+    }
+
+    .mea-cardholder-result {
+      display: none;
+    }
+
+    .mea-pan-result {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+    }
+
+    .mea-field-name {
+      font-size: 12px;
+      color: #afb8c1;
+    }
+
+    .mea-field-value {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .mea-copy-btn {
+      background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' standalone='no'?%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='24.000000pt' height='24.000000pt' viewBox='0 0 24.000000 24.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,24.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M20 140 c0 -47 4 -80 10 -80 6 0 10 30 10 70 l0 70 70 0 c40 0 70 4 70 10 0 6 -33 10 -80 10 l-80 0 0 -80z'/%3E%3Cpath d='M60 100 l0 -80 80 0 80 0 0 80 0 80 -80 0 -80 0 0 -80z m140 0 l0 -60 -60 0 -60 0 0 60 0 60 60 0 60 0 0 -60z'/%3E%3C/g%3E%3C/svg%3E");
+      background-position: center center;
+      background-repeat: no-repeat no-repeat;
+      background-size: cover;
+      cursor: pointer;
+      display: inline-block;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg)
+        brightness(103%) contrast(103%);
+      height: 21px;
+      margin-left: 7px;
+      margin-top: 3px;
+      transition: all 0.2s ease-in;
+      vertical-align: bottom;
+      width: 21px;
+    }
+
+    .mea-pan-copy {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+    }
+
+    .mea-copy-btn:active {
+      animation: pulse 1s infinite;
+    }
+
+    .mea-copy-btn:hover {
+      filter: invert(92%) sepia(9%) saturate(320%) hue-rotate(202deg)
+        brightness(91%) contrast(91%);
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.95);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
