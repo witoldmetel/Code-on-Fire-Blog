@@ -33,14 +33,6 @@
     }
 
     .mea-cvv-result {
-      display: none;
-    }
-
-    .mea-cardholder-result {
-      display: none;
-    }
-
-    .mea-pan-result {
       display: flex;
       flex-direction: column-reverse;
       justify-content: flex-start;
@@ -73,7 +65,7 @@
       width: 21px;
     }
 
-    .mea-pan-copy {
+    .mea-cvv-copy {
       position: absolute;
       right: 10px;
       top: 5px;
