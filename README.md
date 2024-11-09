@@ -79,86 +79,113 @@ https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-
 ## VSCode user config (settings.json)
 ```
 {
-	"editor.roundedSelection": false,
-	"editor.snippetSuggestions": "top",
-	"editor.tabSize": 2,
-	"editor.minimap.enabled": false,
-	"editor.fontSize": 14,
-	"editor.fontLigatures": true,
-	"editor.suggestSelection": "first",
-	"editor.gotoLocation.multipleDefinitions": "goto",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"explorer.openEditors.visible": 0,
-	"explorer.autoReveal": false,
-	"explorer.confirmDragAndDrop": false,
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Monokai Classic",
-	"workbench.editor.enablePreviewFromQuickOpen": false,
-	"workbench.startupEditor": "newUntitledFile",
-	"liveServer.settings.donotShowInfoMsg": true,
-	"gitlens.advanced.messages": {
-		"suppressCommitHasNoPreviousCommitWarning": false,
-		"suppressCommitNotFoundWarning": false,
-		"suppressFileNotUnderSourceControlWarning": false,
-		"suppressGitVersionWarning": false,
-		"suppressLineUncommittedWarning": false,
-		"suppressNoRepositoryWarning": false
-	},
-	"gitlens.keymap": "none",
-	"todohighlight.keywords": ["todo", "@todo", "fixme", "@fixme"],
-	"todohighlight.isCaseSensitive": false,
-	"todohighlight.defaultStyle": {
-		"color": "white",
-		"backgroundColor": "#ffab00",
-		"overviewRulerColor": "#ffab00",
-		"fontWeight": "bold"
-	},
-	"breadcrumbs.enabled": true,
-	"javascript.updateImportsOnFileMove.enabled": "never",
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"typescript.updateImportsOnFileMove.enabled": "never",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"eslint.alwaysShowStatus": true,
-	"eslint.migration.2_x": "off",
-	"eslint.enable": true,
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact"
-	],
-	"prettier.singleQuote": true,
-	"prettier.useTabs": true,
-	"git.confirmSync": false,
-	"git.autofetch": true,
-	"workbench.editor.enablePreview": false,
-	"extensions.ignoreRecommendations": true,
-	"turboConsoleLog.logMessagePrefix": "",
-	"sync.gist": "ca918e14a9b9ea8b6c7ffce533bc685d",
-	"terminal.integrated.defaultProfile.osx": "zsh",
-	"terminal.explorerKind": "external",
-	"editor.inlineSuggest.enabled": true,
-	"editor.linkedEditing": true,
-	"editor.formatOnSave": true,
-	"window.zoomLevel": 1,
-	"git.ignoreMissingGitWarning": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll": true
-	},
-	"emmet.includeLanguages": {
-		"postcss": "css"
-	},
-	"postcss.validate": false
+  "editor.roundedSelection": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "explorer.openEditors.visible": 1,
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai Classic",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "gitlens.keymap": "none",
+  "todohighlight.keywords": ["todo", "@todo", "fixme", "@fixme"],
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.defaultStyle": {
+    "color": "white",
+    "backgroundColor": "#ffab00",
+    "overviewRulerColor": "#ffab00",
+    "fontWeight": "bold"
+  },
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.migration.2_x": "off",
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.editor.enablePreview": false,
+  "extensions.ignoreRecommendations": true,
+  "turboConsoleLog.logMessagePrefix": "",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.explorerKind": "external",
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "git.ignoreMissingGitWarning": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "workbench.colorCustomizations": {
+    "sideBarSectionHeader.background": "#0c2c14",
+    "tab.activeBackground": "#0c2c14",
+    "titleBar.activeBackground": "#0c2c14",
+    "statusBar.background": "#0c2c14"
+  },
+  "prettier.bracketSameLine": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community",
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "gitlens.defaultDateShortFormat": "",
+  "editor.minimap.enabled": false,
+  "gitlens.launchpad.indicator.enabled": false
 }
 ```
 
