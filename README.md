@@ -72,10 +72,6 @@ $ git config user.name
 $ git config user.email
 ```
 
-## Backup and Synchronize VSCode Settings with a GitHub Gist
-
-https://mikefrobbins.com/2019/03/21/backup-and-synchronize-vscode-settings-with-a-github-gist/
-
 ## VSCode user config (settings.json)
 ```
 {
